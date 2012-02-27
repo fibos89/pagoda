@@ -35,69 +35,80 @@ table, caption, tbody, tfoot, thead, tr, th, td
 	 blockquote, q   { quotes: "" ""; }
 	
 	
-	
+   	
 	
 .main { width: 1000px; 
         margin: 0 auto; 
 		position: relative; 
-        background: #fcec98 url(images/stolb.jpg) repeat-y top left }
+		display: table;
+        background: #fcec98 url('images/stolb.jpg') repeat-y top left;
+}
 		
 .header { width: 1000px; 
 		  height: 220px; 
-		  background: url(images/shapka.png) no-repeat bottom; }		
+		  font-family: 'postmodern_one-webfont';
+		  
+		  background: url('images/shapka.png') no-repeat bottom;
+}	
+
+.zagolovok {text-align: center; 
+		    color: #dd3535;
+			font-size: 42px;
+			padding-top: 30px;
+}	
  
 .pagoda { width:194px;
           height:166px;
 		  position: absolute;
 		  top: 20px;
 		  left: 20px;
-		  background: url(images/pagoda.png) no-repeat; } 
+		  background: url('images/pagoda.png') no-repeat; 
+} 
 	
-
- 
 .menu {  float:left; 		
 		 width: 281px; 
-		
-         margin: 50px 0 0 0; }
+		 font-family: 'postmodern_one-webfont';
+         margin: 50px 0 0 0;
+}
 	         
 .menu_item { width: 281px; 
              height:117px; 
-			 background: url(images/meniu_neactiv.png) no-repeat;
-			 margin: 0 0 -31px 0;}
+			 background: url('images/meniu_neactiv.png') no-repeat;
+			 margin: 0 0 -31px 0;
+}
 
 .menu_item.active {
-					background: url(images/meniu_activ.png); }
+					background: url('images/meniu_activ.png'); 
+}
 
-
-		
 .content { float:left; 
            width: 719px; 
 		   height: 991px;
-		   font-family: 'postmodern_one-webfont';
-           background: url(images/derevo1.png) no-repeat bottom right;
-           margin: 0 0 -100px 0;
-           		   }         
+		   background: url('images/derevo1.png') no-repeat bottom right;
+}         
 
-
- 
 .footer { clear:both; 
           width: 1000px; 
 		  height: 148px; 
-          background: url(images/shapka.png) no-repeat; }       
+		  position: absolute;
+		  bottom: 0;
+          background: url('images/shapka.png') no-repeat;
+}       
         
 
+	
+
+/*font-family dlea zagolovka i meniu*/     
 	
 @font-face {
     font-family: 'postmodern_one-webfont';
     src: url('fonts/postmodern_one-webfont.eot');
     src: url('fonts/postmodern_one-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/postmodern_one-webfont.ttf') format('truetype');
-    font-weight: normal;
+    color: red;
+	font-weight: normal;
     font-style: normal;
 }		
-    
-     
-	
 	
 
 
