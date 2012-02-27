@@ -77,8 +77,19 @@ table, caption, tbody, tfoot, thead, tr, th, td
 			 margin: 0 0 -31px 0;
 }
 
+.text {text-align: left; 
+		       color: #dd3535;
+			   font-size: 35px;
+			   padding-top: 55px;
+			   padding-left: 20px;
+}
+
 .menu_item.active {
 					background: url('images/meniu_activ.png'); 
+}
+
+.text.active { 
+				color: #ffffff;
 }
 
 .content { float:left; 
