@@ -37,8 +37,8 @@ table, caption, tbody, tfoot, thead, tr, th, td
 	
    	
 	
-.main { width: 1000px; 
-        margin: 0 auto; 
+.main {	width: 1000px; 
+		margin: 0 auto; 
 		position: relative; 
 		display: table;
         background: #fcec98 url('images/stolb.jpg') repeat-y top left;
@@ -51,7 +51,7 @@ table, caption, tbody, tfoot, thead, tr, th, td
 		  background: url('images/shapka.png') no-repeat bottom;
 }	
 
-.zagolovok {text-align: center; 
+.zagolovok {	text-align: center; 
 		    color: #dd3535;
 			font-size: 42px;
 			padding-top: 20px;
@@ -66,9 +66,9 @@ table, caption, tbody, tfoot, thead, tr, th, td
 } 
 	
 .menu {  float:left; 		
-		 width: 281px; 
-		 font-family: 'postmodern_one-webfont';
-         margin: 50px 0 0 0;
+		width: 281px; 
+		font-family: 'postmodern_one-webfont';
+        margin: 50px 0 0 0;
 }
 	         
 .menu_item { width: 281px; 
@@ -77,11 +77,11 @@ table, caption, tbody, tfoot, thead, tr, th, td
 			 margin: 0 0 -31px 0;
 }
 
-.text {text-align: left; 
-		       color: #dd3535;
-			   font-size: 35px;
-			   padding-top: 55px;
-			   padding-left: 20px;
+.text {	text-align: left; 
+	    color: #dd3535;
+		font-size: 35px;
+		padding-top: 55px;
+		padding-left: 20px;
 }
 
 .menu_item.active {
@@ -105,10 +105,23 @@ table, caption, tbody, tfoot, thead, tr, th, td
 		  bottom: 0;
           background: url('images/shapka.png') no-repeat;
 }       
-        
+
+.menu_footer { float: left;}
+
+.menu_footer.s {float: left;}
+
+.text_footer {  font-family: arial;
+				font-variant:small-caps; 
+				color: #dd3535;
+				font-size: 20px;
+				padding-top: 74px;
+				padding-left: 300px;
+				word-spacing: 20px;}
+				
 
 	
-
+	
+	
 /*font-family dlea zagolovka i meniu*/     
 	
 @font-face {
