@@ -106,19 +106,34 @@ table, caption, tbody, tfoot, thead, tr, th, td
           background: url('images/shapka.png') no-repeat;
 }       
 
-.menu_footer { float: left;}
+.menu_footer {
+				float: left;
+				padding: 45px 0 0 20px;
+				width: 800px;
+				
+}
 
-.menu_footer.s {float: left;}
+.menu_footer.zoloto {   color: #750000;
+						width:200px;
+						margin: 0 0 0 0;
+						
+}
+
+.menu_footer.item { padding-left:0px; 
+					width: 80px; 
+}
 
 .text_footer {  font-family: arial;
 				font-variant:small-caps; 
-				color: #dd3535;
-				font-size: 20px;
-				padding-top: 74px;
-				padding-left: 300px;
-				word-spacing: 20px;}
+				color: #c24400;
+				font-size: 17px;
+				text-align: center;	
 				
-
+}
+				
+.text_footer.active { 	
+						color: #dd3535;
+}
 	
 	
 	
